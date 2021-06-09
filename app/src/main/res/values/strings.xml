@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">uasproject</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Fullname</string>
+    <string name="phone">phone</string>
+    <string name="btnsignin">Sign In</string>
+    <string name="btnsignup">Sign Up</string>
+    <string name="btnsignout">Sign Out</string>
+    <string name="gosignin">Sudah memiliki akun?</string>
+    <string name="createacc">Pengguna baru?</string>
+    <string name="btnedit">Edit Profile</string>
+    <string name="btnsave">Save</string>
+    <string name="btndiscard">Discard</string>
+    <string name="vidtitle">Video Title</string>
+    <string name="btnupload">Upload</string>
+    <string name="titleport">Title</string>
+    <string name="porttitle">Portfolio Title</string>
+    <string name="watch">Watch</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy</string>
+    <string name="link">www.link.co.id</string>
+    <string name="slash">/</string>
+    <string name="history">History</string>
+    <string name="ctid">Customer ID</string>
+    <string name="customer_id">00000abcd</string>
+    <string name="payment">Payment</string>
+    <string name="nominal">000.000</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="alamat">Alamat</string>
+    <string name="No">Nomor Telepon</string>
+    <string name="cuci">Pilihan cuci</string>
+    <string name="send">OK</string>
+    <string-array name="list_cuci">
+        <item>Fast Cleaning (20-30 menit)</item>
+        <item>Deep Cleaning (2-3 hari)</item>
+        <item>Unyellowing</item>
+        <item>Repaint</item>
+        <item>Recolour</item>
+    </string-array>
+</resources>

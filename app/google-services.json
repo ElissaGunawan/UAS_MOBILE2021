@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460952516997",
+    "project_id": "projectuas-c1f86",
+    "storage_bucket": "projectuas-c1f86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460952516997:android:13e1e1789d8c59740e2cec",
+        "android_client_info": {
+          "package_name": "umn.ac.id.uasproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460952516997-5vk5qb67ritlobntf26dm6b7maa0hpvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzpL4xtSXCY0MPaZZgGRWHPVjc5OBLReI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460952516997-5vk5qb67ritlobntf26dm6b7maa0hpvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

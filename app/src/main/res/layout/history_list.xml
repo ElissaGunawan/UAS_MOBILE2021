@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:elevation="3dp"
+    android:outlineAmbientShadowColor="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+        <TextView
+            android:id="@+id/tdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="18sp"
+            android:layout_margin="2dp"/>
+
+        <RelativeLayout
+            android:id="@+id/ctid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_below="@+id/tdate">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ctid"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/customer_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="18sp"
+                android:text="@string/customer_id"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tpayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ctid"
+            android:layout_margin="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/tnominal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nominal"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/tstatus"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@+id/tpayment"-->
+        <!--            android:layout_margin="3dp">-->
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:textSize="16sp"-->
+        <!--                android:text="@string/status"/>-->
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content" -->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:text="@string/status"-->
+        <!--                android:textSize="16dp"/> -->
+        <!--        </RelativeLayout>-->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
